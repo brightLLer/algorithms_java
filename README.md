@@ -5,3 +5,4 @@
 + 2018.04.08，设计特殊数据结构，猫狗队列，DogCatQueue.java
 + 2018.04.08，用一个栈辅助另外一个栈排序，SortStackByStack.java
 + 2018.04.09，基本汉诺塔算法问题（递归实现），Hanoi_basic.java
++ 2018.04.09，汉诺塔变式算法问题（分类讨论直观版），Hanoi_advanced.java
