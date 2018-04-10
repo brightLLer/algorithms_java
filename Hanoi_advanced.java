@@ -57,6 +57,7 @@ public class Hanoi_advanced{
 		if(n == 1){
 			move(from, to);
 		}
+		//下面的所有判断条件中第三个参数-第四个参数也可以都统一写为left,mid,right
 	    else if(from.equals(left) && to.equals(mid)){
 			hanoiN(left, right, left, mid, right, n-1);
 			move(left, mid);
