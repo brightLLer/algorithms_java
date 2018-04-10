@@ -5,11 +5,11 @@ public class Hanoi_advancedV2 {
 		
 		if(from.equals("mid") || to.equals("mid")){
 			System.out.println("move from " + from + " to " + to);
-			return 1; //返回1步;
+			return 1; 
 		}else{
 			System.out.println("move from " + from + " to mid");
 			System.out.println("move from mid to "+ to);
-			return 2; //返回2步;
+			return 2;
 		}
 		
 	}
